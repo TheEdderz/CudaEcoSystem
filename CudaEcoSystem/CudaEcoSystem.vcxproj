@@ -21,11 +21,15 @@
   <ItemGroup>
     <ClCompile Include="Animal.cpp" />
     <ClCompile Include="Map.cpp" />
+    <ClCompile Include="Pred.cpp" />
+    <ClCompile Include="Prey.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Animal.h" />
     <ClInclude Include="Map.h" />
+    <ClInclude Include="Pred.h" />
+    <ClInclude Include="Prey.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{91DBD9A8-A08F-4876-967F-90B6347C8AB5}</ProjectGuid>

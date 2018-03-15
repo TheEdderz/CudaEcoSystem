@@ -25,7 +25,7 @@ public:
 
 	virtual bool isDead() const; //returns whether the animal is dead or not
 
-	bool in_range(int xx, int yy, ); //checks whether the animal is in range
+	bool in_range(int xx, int yy); //checks whether the animal is in range
 	
 protected:
 	int x;	//position

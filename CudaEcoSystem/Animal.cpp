@@ -51,3 +51,13 @@ void Animal::breedAtNewCell() {
 	}
 }
 
+//is the animal in range
+bool Animal::in_range(int xx, int yy)
+{
+	return (xx >= 0) && (xx < MAPSIZE);
+}
+
+//returns if hte animal is dead or not
+bool Animal::isDead() const {
+	return false;
+}
